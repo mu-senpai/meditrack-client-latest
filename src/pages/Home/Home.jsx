@@ -10,14 +10,14 @@ import MeetDoctors from "./MeetDoctors";
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
+            {/* <Banner></Banner> */}
             <WhyMediTrackSection></WhyMediTrackSection>
             <FeaturesSection></FeaturesSection>
             <StatCards></StatCards>
             <PopularCamps></PopularCamps>
             <FeedbackSection></FeedbackSection>
             <MeetDoctors></MeetDoctors>
-            {/* <NewsletterSection></NewsletterSection> */}
+            <NewsletterSection></NewsletterSection>
         </div>
     );
 };
