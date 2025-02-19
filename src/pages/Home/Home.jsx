@@ -10,8 +10,8 @@ import MeetDoctors from "./MeetDoctors";
 const Home = () => {
     return (
         <div>
-            {/* <Banner></Banner> */}
-            <WhyMediTrackSection></WhyMediTrackSection>
+            <Banner></Banner>
+            {/* <WhyMediTrackSection></WhyMediTrackSection> */}
             <FeaturesSection></FeaturesSection>
             <StatCards></StatCards>
             <PopularCamps></PopularCamps>
