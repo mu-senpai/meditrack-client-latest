@@ -1,0 +1,122 @@
+[
+    {
+        "campName": "Healthy Living Workshop",
+        "image": "https://i.ibb.co.com/ZTLhx9Y/image.png",
+        "campFees": 25.00,
+        "dateAndTime": "2025-02-15T10:00:00",
+        "location": "Community Hall, Sydney, Australia",
+        "healthcareProfessional": "Dr. Emma Wilson",
+        "participantCount": 32,
+        "description": "This workshop aims to educate participants on the importance of balanced nutrition, regular physical activity, and stress management techniques to promote long-term health and well-being. Attendees will engage in interactive sessions and receive personalized health advice."
+    },
+    {
+        "campName": "Pediatric Care Camp",
+        "image": "https://i.ibb.co.com/v1jPsVf/image.png",
+        "campFees": 15.00,
+        "dateAndTime": "2025-02-20T09:00:00",
+        "location": "City Hospital, London, United Kingdom",
+        "healthcareProfessional": "Dr. Liam Carter",
+        "participantCount": 20,
+        "description": "This camp offers specialized pediatric services, including vaccinations, growth tracking, and early developmental screenings, ensuring optimal health for children. Parents will also receive guidance on nutrition and preventive care for their kids."
+    },
+    {
+        "campName": "Diabetes Awareness Camp",
+        "image": "https://i.ibb.co.com/wckjNrr/image.png",
+        "campFees": 10.00,
+        "dateAndTime": "2025-03-05T08:30:00",
+        "location": "Wellness Clinic, Toronto, Canada",
+        "healthcareProfessional": "Dr. Sarah Johnson",
+        "participantCount": 45,
+        "description": "Learn how to manage and prevent diabetes with practical advice on healthy eating, physical activity, and medication management. Free glucose screenings and individual consultations with healthcare professionals are included."
+    },
+    {
+        "campName": "Women's Health Camp",
+        "image": "https://i.ibb.co.com/Lk8V8TF/image.png",
+        "campFees": 30.00,
+        "dateAndTime": "2025-03-12T11:00:00",
+        "location": "Health Hub, Paris, France",
+        "healthcareProfessional": "Dr. Olivia Martinez",
+        "participantCount": 50,
+        "description": "A comprehensive camp dedicated to women's health, offering services like breast cancer screenings, gynecological consultations, and wellness seminars. Attendees will receive tailored advice to maintain a healthy lifestyle."
+    },
+    {
+        "campName": "Heart Health Camp",
+        "image": "https://i.ibb.co.com/HVTVGxv/image.png",
+        "campFees": 20.00,
+        "dateAndTime": "2025-03-20T10:00:00",
+        "location": "CardioCare Center, Mumbai, India",
+        "healthcareProfessional": "Dr. Ethan Brown",
+        "participantCount": 60,
+        "description": "This camp focuses on heart health, offering ECG screenings, cholesterol checks, and expert consultations on managing cardiovascular risks. Participants will also learn heart-healthy diet tips and stress management techniques."
+    },
+    {
+        "campName": "Elder Care Camp",
+        "image": "https://i.ibb.co.com/M9XDYz2/image.png",
+        "campFees": 15.00,
+        "dateAndTime": "2025-04-05T09:00:00",
+        "location": "Sunrise Retirement Home, Tokyo, Japan",
+        "healthcareProfessional": "Dr. Sophia Lee",
+        "participantCount": 40,
+        "description": "Providing seniors with essential healthcare services, this camp includes mobility assessments, chronic disease management, and social activities to encourage active aging. Family members will also receive caregiver guidance."
+    },
+    {
+        "campName": "Cancer Awareness Camp",
+        "image": "https://i.ibb.co.com/W2Z1YZS/image.png",
+        "campFees": 35.00,
+        "dateAndTime": "2025-04-15T10:00:00",
+        "location": "Cancer Support Center, Berlin, Germany",
+        "healthcareProfessional": "Dr. William Taylor",
+        "participantCount": 70,
+        "description": "This camp focuses on educating attendees about cancer prevention, early detection, and available treatments. Free cancer screenings and workshops on healthy living and emotional resilience are part of the program."
+    },
+    {
+        "campName": "Mental Wellness Camp",
+        "image": "https://i.ibb.co.com/kgWrmRF/image.png",
+        "campFees": 20.00,
+        "dateAndTime": "2025-04-25T09:30:00",
+        "location": "Peaceful Minds Center, Cape Town, South Africa",
+        "healthcareProfessional": "Dr. Emily Clark",
+        "participantCount": 25,
+        "description": "Promoting mental health awareness, this camp offers stress management workshops, one-on-one counseling, and mindfulness activities. Participants will learn practical techniques to improve emotional well-being."
+    },
+    {
+        "campName": "Oral Health Camp",
+        "image": "https://i.ibb.co.com/MhkkLrz/image.png",
+        "campFees": 5.00,
+        "dateAndTime": "2025-05-10T08:00:00",
+        "location": "Smile Dental Clinic, Rio de Janeiro, Brazil",
+        "healthcareProfessional": "Dr. James Anderson",
+        "participantCount": 15,
+        "description": "This camp provides free dental checkups, cleanings, and consultations to promote oral hygiene. Attendees will receive educational materials on maintaining a healthy smile and avoiding dental issues."
+    },
+    {
+        "campName": "Vision Care Camp",
+        "image": "https://i.ibb.co.com/WHpw9sK/image.png",
+        "campFees": 10.00,
+        "dateAndTime": "2025-05-20T09:00:00",
+        "location": "EyeCare Center, Cairo, Egypt",
+        "healthcareProfessional": "Dr. Ava Hernandez",
+        "participantCount": 30,
+        "description": "Aimed at improving vision health, this camp offers free eye exams, consultations, and education on preventing vision loss. Participants will learn about the importance of regular eye checkups."
+    },
+    {
+        "campName": "Skin Health Camp",
+        "image": "https://i.ibb.co.com/dr7Ncv0/image.png",
+        "campFees": 25.00,
+        "dateAndTime": "2025-05-30T10:00:00",
+        "location": "Dermatology Hub, Dubai, UAE",
+        "healthcareProfessional": "Dr. Benjamin Green",
+        "participantCount": 35,
+        "description": "Focusing on skin health, this camp offers free consultations, skin screenings, and educational sessions on managing skin conditions such as acne, eczema, and sun damage."
+    },
+    {
+        "campName": "Rehabilitation Camp",
+        "image": "https://i.ibb.co.com/djh0pG5/image.png",
+        "campFees": 50.00,
+        "dateAndTime": "2025-06-10T09:30:00",
+        "location": "Recovery Center, Moscow, Russia",
+        "healthcareProfessional": "Dr. Isabella Walker",
+        "participantCount": 45,
+        "description": "Designed to support physical and emotional recovery, this camp provides personalized therapy sessions, group exercises, and wellness planning to help participants regain independence and confidence."
+    }
+]
