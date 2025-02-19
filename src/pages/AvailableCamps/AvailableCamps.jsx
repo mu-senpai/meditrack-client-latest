@@ -82,7 +82,7 @@ const AvailableCamps = () => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.6 }}
                         className="h-full"
-                        src="https://i.ibb.co/NKHxZk7/image-1.png"
+                        src="/aid-bg.webp"
                     />
                 </div>
             </div>

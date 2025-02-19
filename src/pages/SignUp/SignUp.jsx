@@ -138,13 +138,13 @@ const SignUp = () => {
     };
 
     return (
-        <div className="flex flex-col md:flex-row h-[90rem] md:h-[70rem] bg-base-100">
+        <div className="flex flex-col md:flex-row h-[90rem] md:h-[70rem]">
             <div className="md:w-1/2 w-full h-[30%] md:h-full bg-accent flex items-center justify-center p-6 relative">
                 <motion.img
                     initial={{ opacity: 0, x: -30 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5 }}
-                    src="https://i.ibb.co/5hyfb5T/image.png"
+                    src="/doctor-bg.webp"
                     alt="Doctor illustration"
                     className="max-w-[80%] lg:max-w-[60%] h-full object-contain z-10"
                 />
@@ -153,7 +153,7 @@ const SignUp = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
                     className="absolute top-0 right-0 h-[50%] object-contain"
-                    src="https://i.ibb.co/NKHxZk7/image-1.png"
+                    src="/aid-bg.webp"
                 />
             </div>
 

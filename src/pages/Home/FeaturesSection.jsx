@@ -4,9 +4,14 @@ const FeaturesSection = () => {
     return (
         <section className="w-[90%] box-border lg:h-[1000px] flex flex-col gap-4 md:gap-12 lg:gap-0 lg:flex-row lg:items-start lg:justify-between mx-auto pt-10 sm:pt-14 md:pt-18 xl:pt-20 2xl:pt-24">
             {/* Doctor Image Section */}
-            <div className="w-full lg:h-full lg:w-[48%]">
+            <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -50 }}
+            transition={{ duration: 0.6 }}
+            className="w-full lg:h-full lg:w-[48%]">
                 <img src="/female-doctor.webp" className="w-full lg:h-full object-cover object-top rounded-2xl shadow-lg" alt="Female doctor" />
-            </div>
+            </motion.div>
 
             {/* Features Section */}
             <div className="w-full lg:h-full flex flex-col items-center lg:items-start lg:justify-between lg:w-[48%] mt-8 md:mt-0">
