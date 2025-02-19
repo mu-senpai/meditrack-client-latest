@@ -16,8 +16,8 @@ const Home = () => {
             <StatCards></StatCards>
             <PopularCamps></PopularCamps>
             <FeedbackSection></FeedbackSection>
-            {/* <MeetDoctors></MeetDoctors> */}
-            <NewsletterSection></NewsletterSection>
+            <MeetDoctors></MeetDoctors>
+            {/* <NewsletterSection></NewsletterSection> */}
         </div>
     );
 };
