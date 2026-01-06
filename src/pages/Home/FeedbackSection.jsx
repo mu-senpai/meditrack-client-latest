@@ -59,7 +59,7 @@ const FeedbackSection = () => {
                                         <p className="text-sm sm:text-base text-gray-400">{feedback.campName}</p>
                                     </div>
                                 </div>
-                                <p className="text-lg italic">"{feedback.feedback}"</p>
+                                <p className="text-lg italic">&quot;{feedback.feedback}&quot;</p>
                                 <div className="flex justify-center mt-4">
                                     {[...Array(feedback.rating)].map((_, index) => (
                                         <span key={index} className="text-yellow-400 text-3xl">★</span>

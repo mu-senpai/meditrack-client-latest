@@ -1,5 +1,5 @@
+import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 
 export default function BannerCarousel() {
@@ -7,12 +7,14 @@ export default function BannerCarousel() {
     {
       backgroundImage: "/Banner-1.webp",
       tagline: "Making Healthcare Accessible for All",
-      description: "Over 10,000 lives transformed through 500+ medical camps worldwide.",
+      description:
+        "Over 10,000 lives transformed through 500+ medical camps worldwide.",
     },
     {
       backgroundImage: "/Banner-2.webp",
       tagline: "Join the Movement for Better Health",
-      description: "Providing care in 30+ countries with millions of smiles delivered.",
+      description:
+        "Providing care in 30+ countries with millions of smiles delivered.",
     },
   ];
 
@@ -23,7 +25,7 @@ export default function BannerCarousel() {
   };
 
   return (
-    <div className="relative w-full h-[90vh] overflow-hidden">
+    <div className="relative w-full h-[90vh] max-h-[800px] overflow-hidden">
       {/* Slide Content */}
       <AnimatePresence mode="wait">
         {slides.map(
@@ -31,7 +33,7 @@ export default function BannerCarousel() {
             index === currentSlide && (
               <motion.div
                 key={index}
-                className="absolute inset-0 bg-cover bg-bottom"
+                className="absolute inset-0 bg-cover bg-center"
                 style={{
                   backgroundImage: `url(${slide.backgroundImage})`,
                 }}
@@ -59,12 +61,12 @@ export default function BannerCarousel() {
                   </motion.p>
                   <Link to={`/available-camps`}>
                     <motion.button
-                        className="btn btn-accent text-white px-6 py-3 text-lg font-semibold"
-                        initial={{ scale: 0.8, opacity: 0 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        transition={{ delay: 0.6, duration: 0.8 }}
+                      className="btn btn-accent text-white px-6 py-3 text-lg font-semibold"
+                      initial={{ scale: 0.8, opacity: 0 }}
+                      animate={{ scale: 1, opacity: 1 }}
+                      transition={{ delay: 0.6, duration: 0.8 }}
                     >
-                        Explore Camps
+                      Explore Camps
                     </motion.button>
                   </Link>
                 </div>

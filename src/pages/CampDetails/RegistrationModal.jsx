@@ -111,7 +111,7 @@ export default function RegistrationModal(props = {}) {
                             />
                         </div>
                         <div>
-                            <label className="label text-sm">Participant's Name</label>
+                            <label className="label text-sm">Participant&apos;s Name</label>
                             <input
                                 type="text"
                                 {...register("participantName", { required: true })}
@@ -122,7 +122,7 @@ export default function RegistrationModal(props = {}) {
                         </div>
 
                         <div>
-                            <label className="label text-sm">Participant's Email</label>
+                            <label className="label text-sm">Participant&apos;s Email</label>
                             <input
                                 type="text"
                                 {...register("participantEmail", { required: true })}
@@ -205,4 +205,3 @@ export default function RegistrationModal(props = {}) {
         </dialog>
     );
 }
-
